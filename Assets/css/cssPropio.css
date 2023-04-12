@@ -1,0 +1,78 @@
+html,
+body {
+    height: 100%;
+    background: url("../img/fondo.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.wrapper {
+    min-height: calc(100% - 60px);
+    /* Resta el alto del footer */
+}
+
+.footer {
+    background-color: #000;
+    /* Cambia el color de fondo a tu preferencia */
+    color: #fff;
+    /* Cambia el color de texto a tu preferencia */
+    padding: 15px;
+    /* Agrega un relleno a tu footer si lo deseas */
+    position: relative;
+    margin-top: -60px;
+    /* Igual al alto del footer */
+    clear: both;
+}
+
+.logo-footer {
+    margin-top: 5%;
+    height: 124px;
+    width: 124px;
+}
+
+.footer-credit {
+    text-align: center;
+}
+
+#social-media {
+    margin-top: 3%;
+}
+
+#social-contact {
+    margin-top: 3%;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}
+
+/* -------------------------------- */
+
+
+/* ------------Carousel------------ */
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    color: #000000;
+    /* Color de texto negro */
+    font-size: 20px;
+    /* Tamaño de fuente de 24px */
+    background-color: rgba(245, 245, 245, 0.767);
+}
+
+
+/* -------------------------------- */
+
+@media (max-width: 767px) {
+    #social-contact {
+      text-align: center;
+    }
+  
+    #social-media {
+      margin-top: 10%;
+    }
+  }
