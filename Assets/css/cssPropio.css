@@ -12,10 +12,6 @@ body {
 }
 
 .footer {
-    background-color: #000;
-    /* Cambia el color de fondo a tu preferencia */
-    color: #fff;
-    /* Cambia el color de texto a tu preferencia */
     padding: 15px;
     /* Agrega un relleno a tu footer si lo deseas */
     position: relative;

@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- scripts usados -->
-    <!-- <script src="../Assets/js/JsPropio.js"></script> -->
+    <script src="../Assets/js/JsPropio.js"></script>
+    <script src="../Assets/js/jquery.min.js"></script>
+    <script src="../Assets/js/bootstrap.min.js"></script>
+    <script src="../Assets/js/sweetalert2.all.min.js"></script>
 
     <!-- Bootstrap CDN y CSS general -->
     <link href="../Assets/css/bootstrap.min.css" rel="stylesheet">
@@ -70,4 +73,3 @@
     </header>
 
     <br>
-    
